@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 .core-services {
-  position: absolute;
+  /* position: absolute; */
   inset: 0;
 }
 .core-services .box-section-right {

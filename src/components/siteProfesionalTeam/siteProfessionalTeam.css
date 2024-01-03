@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 .professional-teams {
-  position: absolute;
+  /* position: absolute; */
   inset: 0;
 }
 .professional-teams .box-section-right {

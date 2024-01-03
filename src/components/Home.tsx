@@ -26,6 +26,7 @@ export default function Home({ className = "" }: HomeProps) {
         {/*some information  */}
         <SiteMainSlider className="" />
         {/*some information  */}
+        
       </div>
     </div>
   );

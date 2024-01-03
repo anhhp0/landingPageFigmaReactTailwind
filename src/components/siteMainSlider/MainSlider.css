@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 .main-slider {
-  position: absolute;
+  /* position: absolute; */
   inset: 0;
 }
 .slide-background {

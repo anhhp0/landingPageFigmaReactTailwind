@@ -2,10 +2,10 @@
 .site-footer * {
   box-sizing: border-box;
 }
-.site-footer {
+/* .site-footer {
   position: absolute;
   inset: 0;
-}
+} */
 .site-footer__bottom-bg {
   background: #0d165c;
   width: 1440px;

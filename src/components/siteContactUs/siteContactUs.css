@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 .contact-us {
-  position: absolute;
+  /* position: absolute; */
   inset: 0;
 }
 .contact-us .background-bubble {
