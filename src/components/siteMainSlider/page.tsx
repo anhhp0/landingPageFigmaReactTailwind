@@ -15,10 +15,10 @@ export default function SiteMainSlider({
       <SiteSlideBg className="" />
       <SiteSlideButton className="" />
 
-      <div className="more-details-button">
+      <button className="more-details-button">
         <div className="button-bg"></div>
-        <div className="more-details">More Details </div>S
-      </div>
+        <div className="more-details">More Details </div>
+      </button>
       <div className="it-is-a-long-established-fact-that-a-reader-will-be-by-the-readable-content-of-a-page">
         It is a long established fact that a reader will be
         <br />
