@@ -12,6 +12,7 @@ import EllipseWhite5 from "./assets/EllipseWhite5";
 import SiteFooter from "./siteFooter/page";
 import SiteContactUs from "./siteContactUs/page";
 import SiteProfessionalTeam from "./siteProfesionalTeam/page";
+import SiteAboutUs from "./siteAboutUs/page";
 
 export default function Home({ className = "" }: HomeProps) {
   return (
@@ -122,30 +123,30 @@ export default function Home({ className = "" }: HomeProps) {
 
         {/* ///////////// */}
         {/* cover video About Us  */}
-        <div className="bg-background-bubble-0 absolute right-[-1.15px] top-[1448px] flex h-[1029px] w-[948px] items-end justify-end bg-cover bg-center pb-72 pl-80 pr-36 pt-96">
+        {/* <div className="bg-background-bubble-0 absolute right-[-1.15px] top-[1448px] flex h-[1029px] w-[948px] items-end justify-end bg-cover bg-center pb-72 pl-80 pr-36 pt-96">
           <div className="relative flex flex-grow items-start self-stretch rounded-[50px] [box-shadow:_0px_0px_50px_25px_white]">
             <div className="absolute inset-0 rounded-[50px] bg-[#C4C4C4]" />
             <div className="bg-background-1 absolute inset-0 rounded-[50px] bg-cover bg-center" />
           </div>
-        </div>
+        </div> */}
         {/* cover video About Us  */}
 
         {/* watch button video About us  */}
-        <div className="absolute top-[2148px] left-96 flex h-12 w-52 items-center justify-center text-left text-base font-semibold leading-[normal] tracking-widest text-neutral-400">
+        {/* <div className="absolute top-[2148px] left-96 flex h-12 w-52 items-center justify-center text-left text-base font-semibold leading-[normal] tracking-widest text-neutral-400">
           <div className="flex flex-grow items-center justify-between self-stretch">
             <Play_button className="h-12 w-12" />
             <div className="w-36">Watch Video</div>
           </div>
-        </div>
+        </div> */}
         {/* watch button video About us  */}
 
-        <div className="absolute top-[2143px] left-36 flex h-14 w-52 items-center justify-center text-center text-base font-semibold leading-[normal] tracking-widest text-white">
+        {/* <div className="absolute top-[2143px] left-36 flex h-14 w-52 items-center justify-center text-center text-base font-semibold leading-[normal] tracking-widest text-white">
           <div className="flex flex-grow justify-center self-stretch rounded-[50px] bg-pink-400 py-4 px-10 drop-shadow-lg">
             Learn More
           </div>
-        </div>
+        </div> */}
         {/* About Us  */}
-        <div className="absolute top-[1802px] left-36 flex h-72 w-96 items-center justify-center text-left">
+        {/* <div className="absolute top-[1802px] left-36 flex h-72 w-96 items-center justify-center text-left">
           <div className="flex flex-grow flex-col items-start justify-center gap-y-3 self-stretch">
             <div className="text-base font-semibold leading-tight tracking-[0px] text-pink-400">
               About Us
@@ -164,8 +165,9 @@ export default function Home({ className = "" }: HomeProps) {
               fringilla cras tellus enim.
             </div>
           </div>
-        </div>
+        </div> */}
         {/* About Us  */}
+        <SiteAboutUs className=""/>
 
         {/* /////////////// */}
         {/* Main Services  */}
