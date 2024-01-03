@@ -15,7 +15,6 @@ export default function ArrowBackToTop({ className = "" }: ArrowBackToTopProps) 
           fill="white"
         />
       </svg>
-      So So
     </div>
   );
 }

@@ -31,7 +31,6 @@ export default function AddrressInfomations({ className = "" }: AddrressInfomati
         <div className="site-footer__ellipse-white-1"></div>
         <div className="site-footer__beautice">Beautice </div>
       </div>
-      Main
     </div>
   );
 }

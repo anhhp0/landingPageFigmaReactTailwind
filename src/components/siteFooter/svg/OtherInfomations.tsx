@@ -1,4 +1,6 @@
-export default function OtherInfomations({ className = "" }: OtherInfomationsProps) {
+export default function OtherInfomations({
+  className = "",
+}: OtherInfomationsProps) {
   return (
     <div className="site-footer__sidebar-3">
       <div className="site-footer__contact">
@@ -67,7 +69,7 @@ export default function OtherInfomations({ className = "" }: OtherInfomationsPro
           />
         </svg>
       </div>
-      <div className="site-footer__informations">Informations </div>A
+      <div className="site-footer__informations">Informations </div>
     </div>
   );
 }
@@ -75,4 +77,3 @@ export default function OtherInfomations({ className = "" }: OtherInfomationsPro
 interface OtherInfomationsProps {
   className: string;
 }
-

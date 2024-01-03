@@ -18,7 +18,7 @@ export default function TitleDescAboutUs({ className = "" }: titleDescAboutUsPro
       <div className="we-are-the-best-beauty-clinic">
         We are the best beauty clinic{" "}
       </div>
-      <div className="about-us2">About Us </div>L
+      <div className="about-us2">About Us </div>
     </div>
   );
 }

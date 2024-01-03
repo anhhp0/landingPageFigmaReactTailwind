@@ -6,7 +6,7 @@ export default function LearnMoreButtonAboutUs({ className = "" }: learnMoreButt
   return (
     <button className="more-details-button">
       <div className="button-bg"></div>
-      <div className="learn-more">Learn More </div>P
+      <div className="learn-more">Learn More </div>
     </button>
   );
 }

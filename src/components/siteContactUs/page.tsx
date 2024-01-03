@@ -21,7 +21,7 @@ export default function SiteContactUs({ className = "" }: siteContactUsProps) {
           <br />
           our expert team{" "}
         </div>
-        <div className="contact-us2">Contact Us </div>S
+        <div className="contact-us2">Contact Us </div>
       </div>
       <AnimationSiteContactUs className="" />
     </div>

@@ -82,7 +82,6 @@ export default function MainInfomations({ className = "" }: MainInfomationsProps
         </svg>
       </div>
       <div className="site-footer__pages">Pages </div>
-      Inf
     </div>
   );
 }
