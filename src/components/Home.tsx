@@ -13,6 +13,7 @@ import SiteFooter from "./siteFooter/page";
 import SiteContactUs from "./siteContactUs/page";
 import SiteProfessionalTeam from "./siteProfesionalTeam/page";
 import SiteAboutUs from "./siteAboutUs/page";
+import CoreServices from "./siteMainServices/page";
 
 export default function Home({ className = "" }: HomeProps) {
   return (
@@ -20,105 +21,9 @@ export default function Home({ className = "" }: HomeProps) {
       className={`font-poppins inline-flex h-[4989px] w-[1440px] resize flex-row overflow-hidden ${className}`}
     >
       <div className="relative flex h-full w-full items-end overflow-clip bg-white pb-[918px] pt-[3142px] pr-64">
-        {/* Footer */}
         <SiteFooter className={"*"} />
-        {/* footer  */}
-
-        {/* ///////////// */}
         <BackgroundBubble className="relative mr-[-0.33px] h-[929px] w-[1176px]" />
-        
-        {/* ContactUs */}
         <SiteContactUs className="" />
-
-        {/* ////////////////// */}
-        {/* Professional 3 */}
-        {/* <div className="absolute bottom-[1880px] right-44 flex h-961 w-64 items-center justify-center text-center">
-          <div className="flex flex-grow flex-col items-center justify-center gap-y-1.5 self-stretch">
-            <UnsplashMez3pofgs_k className="h-36 w-36" />
-            <div className="flex flex-col items-center justify-end pt-12 text-base font-semibold leading-tight tracking-[0px] text-pink-400">
-              <div className="flex flex-grow justify-center self-stretch">
-                Stylist expert
-              </div>
-            </div>
-            <div className="flex flex-col items-center justify-end self-stretch pt-2.5 text-lg font-semibold leading-tight tracking-[0px] text-indigo-900">
-              <div className="flex flex-grow justify-center self-stretch">
-                Lilly Adams
-              </div>
-            </div>
-            <div className="flex justify-center self-stretch text-sm font-normal leading-[normal] tracking-widest text-neutral-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-              aliquam, purus sit
-            </div>
-            <div className="flex h-24 w-52 flex-col items-center justify-end pt-11">
-              <SocialMedia1 className="h-12 w-52" />
-            </div>
-          </div>
-        </div> */}
-        {/* Professional 3 */}
-
-        {/* Professional 2 */}
-        {/* <div className="absolute inset-x-961 bottom-[2002px] flex h-961 items-center justify-center text-center">
-          <div className="flex flex-grow items-center justify-center self-stretch rounded-3xl bg-white py-24 px-20 [box-shadow:_0px_25px_50px_25px_rgba(246,_247,_255,_1)]">
-            <div className="flex flex-grow flex-col items-center justify-center gap-y-1.5 self-stretch">
-              <UnsplashFvh_yqlr9ea className="h-36 w-36" />
-              <div className="flex flex-col items-center justify-end pt-12 text-base font-semibold leading-tight tracking-[0px] text-pink-400">
-                <div className="flex flex-grow justify-center self-stretch">
-                  Dermatologist
-                </div>
-              </div>
-              <div className="flex flex-col items-center justify-end self-stretch pt-2.5 text-lg font-semibold leading-tight tracking-[0px] text-indigo-900">
-                <div className="flex flex-grow justify-center self-stretch">
-                  Bella sebastian
-                </div>
-              </div>
-              <div className="flex justify-center self-stretch text-sm font-normal leading-[normal] tracking-widest text-neutral-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-                aliquam, purus sit
-              </div>
-              <div className="flex h-24 w-52 flex-col items-center justify-end pt-11">
-                <SocialMedia2 className="h-12 w-52" />
-              </div>
-            </div>
-          </div>
-        </div> */}
-        {/* Professional 2 */}
-
-        {/* Professional 1 */}
-        {/* <div className="absolute bottom-[1880px] left-44 flex h-961 w-64 items-center justify-center text-center">
-          <div className="flex flex-grow flex-col items-center justify-center gap-y-1.5 self-stretch">
-            <UnsplashPtrhfmj2jda className="h-36 w-36" />
-            <div className="flex flex-col items-center justify-end pt-12 text-base font-semibold leading-tight tracking-[0px] text-pink-400">
-              <div className="flex flex-grow justify-center self-stretch">
-                Surgeon
-              </div>
-            </div>
-            <div className="flex flex-col items-center justify-end self-stretch pt-2.5 text-lg font-semibold leading-tight tracking-[0px] text-indigo-900">
-              <div className="flex flex-grow justify-center self-stretch">
-                Briyan Nevalli
-              </div>
-            </div>
-            <div className="flex justify-center self-stretch text-sm font-normal leading-[normal] tracking-widest text-neutral-400">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-              aliquam, purus sit
-            </div>
-            <div className="flex h-24 w-52 flex-col items-center justify-end pt-11">
-              <SocialMedia3 className="h-12 w-52" />
-            </div>
-          </div>
-        </div> */}
-        {/* Professional 1 */}
-
-        {/* Profesional detail  */}
-        {/* <div className="absolute inset-x-72 top-[2441px] flex h-12 justify-center text-center text-base font-normal leading-[normal] tracking-widest text-neutral-400">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam.
-        </div>
-        <div className="absolute inset-x-96 top-[2376px] flex h-14 justify-center text-center text-4xl font-semibold leading-tight tracking-[0px] text-indigo-900">
-          The Professional expert
-        </div>
-        <div className="absolute inset-x-96 top-[2344px] flex h-5 justify-center text-center text-base font-semibold leading-tight tracking-[0px] text-pink-400">
-          Professional Teams
-        </div>
-        Profesional detail  */}
         <SiteProfessionalTeam className="" />
 
         {/* ///////////// */}
@@ -171,7 +76,7 @@ export default function Home({ className = "" }: HomeProps) {
 
         {/* /////////////// */}
         {/* Main Services  */}
-        <div className="absolute inset-x-36 top-[936px] flex h-96 items-center justify-center text-center">
+        {/* <div className="absolute inset-x-36 top-[936px] flex h-96 items-center justify-center text-center">
           <div className="flex flex-grow flex-col items-center justify-between gap-y-20 self-stretch">
             <div className="flex flex-col items-center justify-center gap-y-3">
               <div className="flex justify-center text-base font-semibold leading-tight tracking-[0px] text-pink-400">
@@ -241,8 +146,9 @@ export default function Home({ className = "" }: HomeProps) {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         {/* Main Services  */}
+        <CoreServices className=""/>
 
         {/* ////////////// */}
         {/* Navbar, some information  */}
