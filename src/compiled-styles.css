@@ -15,14 +15,8 @@ ol,
 ul {
   padding-inline-start: 1.5em;
 }
-/*
-! tailwindcss v3.2.7 | MIT License | https://tailwindcss.com
-*/ /*
-1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
-2. Allow adding a border to an element by just adding a border-width. (https://github.com/tailwindcss/tailwindcss/pull/116)
-*/
 .font-poppins {
-  font-family: Poppins;
+  font-family: "Poppins";
 }
 .inline-flex {
   display: inline-flex;
@@ -91,24 +85,10 @@ button,
 [role="button"] {
   cursor: pointer;
 }
-/*
-Set the default cursor for buttons.
-*/
 
-
-
-/*
-Make sure disabled buttons don't get the pointer cursor.
-*/
 :disabled {
   cursor: default;
 }
-
-/*
-1. Make replaced elements `display: block` by default. (https://github.com/mozdevs/cssremedy/issues/14)
-2. Add `vertical-align: middle` to align replaced elements more sensibly by default. (https://github.com/jensimmons/cssremedy/issues/14#issuecomment-634934210)
-   This can trigger a poorly considered lint error in some tools but is included by design.
-*/
 
 img,
 svg,
@@ -122,9 +102,6 @@ object {
   vertical-align: middle; /* 2 */
 }
 
-/*
-Constrain images and videos to the parent width and preserve their intrinsic aspect ratio. (https://github.com/mozdevs/cssremedy/issues/14)
-*/
 
 img,
 video {
@@ -145,13 +122,6 @@ video {
   --tw-content: "";
 }
 
-/*
-1. Use a consistent sensible line-height in all browsers.
-2. Prevent adjustments of font size after orientation changes in iOS.
-3. Use a more readable tab size.
-4. Use the user's configured `sans` font-family by default.
-5. Use the user's configured `sans` font-feature-settings by default.
-*/
 
 html {
   line-height: 1.5; /* 1 */
@@ -164,21 +134,10 @@ html {
   font-feature-settings: normal; /* 5 */
 }
 
-/*
-1. Remove the margin in all browsers.
-2. Inherit line-height from `html` so users can set them as a class directly on the `html` element.
-*/
-
 body {
   margin: 0; /* 1 */
   line-height: inherit; /* 2 */
 }
-
-/*
-1. Add the correct height in Firefox.
-2. Correct the inheritance of border color in Firefox. (https://bugzilla.mozilla.org/show_bug.cgi?id=190655)
-3. Ensure horizontal rules are visible by default.
-*/
 
 hr {
   height: 0; /* 1 */
@@ -186,17 +145,11 @@ hr {
   border-top-width: 1px; /* 3 */
 }
 
-/*
-Add the correct text decoration in Chrome, Edge, and Safari.
-*/
 
 abbr:where([title]) {
   text-decoration: underline dotted;
 }
 
-/*
-Remove the default font size and weight for headings.
-*/
 
 h1,
 h2,
@@ -208,26 +161,14 @@ h6 {
   font-weight: inherit;
 }
 
-/*
-Reset links to optimize for opt-in styling instead of opt-out.
-*/
 
 a {
   color: inherit;
   text-decoration: inherit;
 }
 
-/*
-Add the correct font weight in Edge and Safari.
-*/
 
 b,
 strong {
   font-weight: bolder;
 }
-
-/*
-1. Use the user's configured `mono` font family by default.
-2. Correct the odd `em` font sizing in all browsers.
-*/
-
