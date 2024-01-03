@@ -6,6 +6,7 @@ import SiteProfessionalTeam from "./siteProfesionalTeam/page";
 import SiteAboutUs from "./siteAboutUs/page";
 import CoreServices from "./siteMainServices/page";
 import SiteMainSlider from "./siteMainSlider/page";
+import SiteHeader from "./siteHeader/page";
 
 export default function Home({ className = "" }: HomeProps) {
   return (
@@ -26,6 +27,7 @@ export default function Home({ className = "" }: HomeProps) {
         {/*some information  */}
         <SiteMainSlider className="" />
         {/*some information  */}
+        <SiteHeader className=""/>
         
       </div>
     </div>

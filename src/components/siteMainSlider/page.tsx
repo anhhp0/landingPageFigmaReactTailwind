@@ -4,7 +4,7 @@ import SiteSlideBg from "./svg/siteSlideBg";
 import SiteSlideButton from "./svg/siteSlideButton";
 
 interface siteMainSliderProps {
-  className?: string;
+  className: string;
 }
 
 export default function SiteMainSlider({
@@ -16,7 +16,7 @@ export default function SiteMainSlider({
       <SiteSlideButton className="" />
 
       <button className="more-details-button">
-        <div className="button-bg"></div>
+        <div className="button-bg-slider"></div>
         <div className="more-details">More Details </div>
       </button>
       <div className="it-is-a-long-established-fact-that-a-reader-will-be-by-the-readable-content-of-a-page">

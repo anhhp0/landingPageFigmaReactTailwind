@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 .site-header {
-  position: absolute;
+  /* position: absolute; */
   inset: 0;
 }
 .contact-button {
