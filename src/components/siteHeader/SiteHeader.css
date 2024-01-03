@@ -145,9 +145,11 @@
   /* font-family: "Poppins-Bold", sans-serif; */
   font-size: 24px;
   font-weight: 700;
+  /* position: absolute; */
   position: absolute;
   left: 247px;
   top: 55px;
   width: 161px;
   height: 34px;
+  box-shadow: #414880;
 }
