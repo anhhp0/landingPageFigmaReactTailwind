@@ -1,7 +1,13 @@
 import Home from "./components/Home";
+import { SpeedInsights } from "@vercel/speed-insights/react";
 
 function App() {
-  return <Home className="*" />;
+  return (
+    <div>
+      <Home className="*" />;
+      <SpeedInsights />
+    </div>
+  );
 }
 
 export default App;
