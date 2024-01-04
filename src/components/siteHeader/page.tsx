@@ -1,4 +1,4 @@
-import "./SiteHeader.css";
+// import "./SiteHeader.css";
 
 interface siteHeaderProps {
   className: string;

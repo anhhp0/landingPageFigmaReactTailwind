@@ -1,4 +1,4 @@
-import "./siteFooter.css";
+// import "./siteFooter.css";
 import FooterBG from "./svg/FooterBG";
 import SocialIcon_pack from "./svg/SocialIcon_packFooter";
 import ArrowBackToTop from "./svg/ArrowBackToTop";

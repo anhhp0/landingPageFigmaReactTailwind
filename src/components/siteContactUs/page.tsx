@@ -1,5 +1,4 @@
-/* Code generated with AutoHTML Plugin for Figma */
-import "./siteContactUs.css";
+// import "./siteContactUs.css";
 import AnimationSiteContactUs from "./svg/AnimationSiteContactUs";
 import SiteFormContactUs from "./svg/ContactUsForm";
 

@@ -1,7 +1,8 @@
-import "./CoreServices.css";
+// import "./CoreServices.css";
 import AnimationBeautyConsulation from "./svg/animationBeautyConsulation";
 import AnimationBeautyProduct from "./svg/animationBeautyProduct";
 import AnimationSkinTreatments from "./svg/animationSkinTreatments";
+
 
 interface coreServiecesProps {
   className: string;

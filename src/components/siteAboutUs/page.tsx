@@ -1,4 +1,4 @@
-import "./AboutUs.css";
+// import "./AboutUs.css";
 import BgAboutUs from "./svg/bgAboutUs";
 import LearnMoreButtonAboutUs from "./svg/learnMoreButtonAboutUs";
 import PlayButtonAboutUs from "./svg/playButtonAboutUs";

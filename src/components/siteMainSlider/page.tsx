@@ -1,4 +1,4 @@
-import "./MainSlider.css";
+// import "./MainSlider.css";
 import SiteAnimationSlide from "./svg/siteAnimationSlide";
 import SiteSlideBg from "./svg/siteSlideBg";
 import SiteSlideButton from "./svg/siteSlideButton";
