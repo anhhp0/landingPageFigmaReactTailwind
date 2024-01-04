@@ -9,7 +9,8 @@ export default function AnimationBeautyConsulation({
 }: animationBeautyConsulationProps) {
   return (
     <svg
-      className="anim-1"
+      className="w-[106.6px] h-[73px] absolute right-[73.99%] left-[18.61%] w-[7.4%] bottom-[72.16%] top-[26.38%] h-[1.46%] overflow-visible"
+      style={{}}
       width="107"
       height="73"
       viewBox="0 0 107 73"

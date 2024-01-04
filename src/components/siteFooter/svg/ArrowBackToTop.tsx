@@ -1,9 +1,10 @@
 export default function ArrowBackToTop({ className = "" }: ArrowBackToTopProps) {
   return (
-    <div className="site-footer__to-top-button">
-      <div className="site-footer__rectangle-6"></div>
+    <div className="w-9 h-9 static">
+      <div className="bg-[#ff64ae] rounded-[5px] w-9 h-9 absolute left-[1339px] top-[4783px]"></div>
       <svg
-        className="site-footer__arrow-up"
+        className="w-[18px] h-[18px] absolute left-[1348px] top-[4792px] overflow-visible"
+        style={{}}
         width="18"
         height="18"
         viewBox="0 0 18 18"

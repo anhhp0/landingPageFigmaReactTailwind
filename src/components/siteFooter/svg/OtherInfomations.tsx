@@ -2,11 +2,14 @@ export default function OtherInfomations({
   className = "",
 }: OtherInfomationsProps) {
   return (
-    <div className="site-footer__sidebar-3">
-      <div className="site-footer__contact">
-        <div className="site-footer__contact2">Contact </div>
+    <div className="w-[215px] h-[184px] static">
+      <div className="w-[215px] h-6 static">
+        <div className="text-[#d7dbff] text-left text-base font-normal absolute left-[1096px] top-[4669px] w-[194px] h-6">
+          Contact
+        </div>
         <svg
-          className="site-footer__caret-right"
+          className="w-[13px] h-[13px] absolute left-[1075px] top-[4675px] overflow-visible"
+          style={{}}
           width="13"
           height="13"
           viewBox="0 0 13 13"
@@ -19,10 +22,13 @@ export default function OtherInfomations({
           />
         </svg>
       </div>
-      <div className="site-footer__careers">
-        <div className="site-footer__blog">Blog </div>
+      <div className="w-[215px] h-6 static">
+        <div className="text-[#d7dbff] text-left  text-base font-normal absolute left-[1096px] top-[4634px] w-[194px] h-6">
+          Blog{" "}
+        </div>
         <svg
-          className="site-footer__caret-right2"
+          className="w-[13px] h-[13px] absolute left-[1075px] top-[4640px] overflow-visible"
+          style={{}}
           width="13"
           height="13"
           viewBox="0 0 13 13"
@@ -35,10 +41,13 @@ export default function OtherInfomations({
           />
         </svg>
       </div>
-      <div className="site-footer__privacy">
-        <div className="site-footer__privacy-policy">Privacy policy </div>
+      <div className="w-[215px] h-6 static">
+        <div className="text-[#d7dbff] text-left  text-base font-normal absolute left-[1096px] top-[4599px] w-[194px] h-6">
+          Privacy policy{" "}
+        </div>
         <svg
-          className="site-footer__caret-right3"
+          className="w-[13px] h-[13px] absolute left-[1075px] top-[4605px] overflow-visible"
+          style={{}}
           width="13"
           height="13"
           viewBox="0 0 13 13"
@@ -51,12 +60,13 @@ export default function OtherInfomations({
           />
         </svg>
       </div>
-      <div className="site-footer__terms">
-        <div className="site-footer__terms-conditions">
+      <div className="w-[215px] h-6 static">
+        <div className="text-[#d7dbff] text-left  text-base font-normal absolute left-[1096px] top-[4564px] w-[194px] h-6">
           Terms &amp; conditions{" "}
         </div>
         <svg
-          className="site-footer__caret-right4"
+          className="w-[13px] h-[13px] absolute left-[1075px] top-[4570px] overflow-visible"
+          style={{}}
           width="13"
           height="13"
           viewBox="0 0 13 13"
@@ -69,7 +79,9 @@ export default function OtherInfomations({
           />
         </svg>
       </div>
-      <div className="site-footer__informations">Informations </div>
+      <div className="text-[#ffffff] text-left text-lg font-semibold absolute left-[1075px] top-[4509px] w-[175px] h-[31px]">
+        Informations
+      </div>
     </div>
   );
 }

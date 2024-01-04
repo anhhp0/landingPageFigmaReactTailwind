@@ -12,7 +12,7 @@ export default function SiteProfessionalTeam({
   className = "",
 }: siteProfessionalTeamProps) {
   return (
-    <div className={"professional-teams " + className}>
+    <div className={className}>
       <SiteProfessionalTitleDesc className="" />
           <ExpertDesc1 className="" />
           <ExpertDesc2 className="" />

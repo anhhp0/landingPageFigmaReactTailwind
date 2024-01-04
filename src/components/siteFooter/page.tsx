@@ -11,17 +11,25 @@ interface SiteFooterProps {
 }
 export default function SiteFooter({ className = "" }: SiteFooterProps) {
   return (
-    <div className={"site-footer " + className}>
-      <div className="site-footer__bottom-bg"></div>
+    <div
+      className={`inset-x-0 bottom-0 flex h-96 items-center justify-center leading-[normal] tracking-widest ${className}`}
+    >
+      <div
+        className="bg-[#0d165c] w-[1440px] h-[125px] absolute left-0 top-[4989px]"
+        style={{
+          transformOrigin: "0 0",
+          transform: "rotate(0deg) scale(1, -1)",
+        }}
+      ></div>
       <FooterBG className="" />
-      <div className="site-footer__alt-desain-studio-2021-all-right-reserved">
-        © AltDesain Studio 2021 - All right reserved. Footer
-      </div>
       <SocialIcon_pack className="" />
       <ArrowBackToTop className="" />
       <OtherInfomations className="" />
       <MainInfomations className="" />
-      <AddrressInfomations className=""/>
+      <AddrressInfomations className="" />
+      <div className="text-[#d7dbff] text-right text-base font-normal absolute left-[793px] top-[4868.05px] w-[497px] h-[31.18px]">
+        © AltDesain Studio 2021 - All right reserved. Footer
+      </div>
     </div>
   );
 }

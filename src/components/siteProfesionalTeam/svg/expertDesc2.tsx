@@ -4,13 +4,22 @@ export interface expertDesc2Props {
 
 export default function ExpertDesc2({ className = "" }: expertDesc2Props) {
   return (
-    <div className="box-section-mid">
-      <div className="box-bacground"></div>
-      <div className="social-media">
-        <div className="instagram">
-          <div className="ellipse-24"></div>
+    <div className="w-[424px] h-[626px] static">
+      <div
+        className="bg-[#ffffff] rounded-[42px] w-[424px] h-[626px] absolute left-[508px] top-[2579px]"
+        style={{ boxShadow: "0px 25px 50px 25px rgba(246, 247, 255, 1.00)" }}
+      ></div>
+      <div className="w-[215px] h-[49px] static">
+        <div className="w-[49px] h-[49px] static">
+          <div
+            className="bg-[#ffffff] rounded-[50%] w-[49px] h-[49px] absolute left-[779px] top-[3060px]"
+            style={{
+              boxShadow: "-2px 6px 16px -1px rgba(230, 233, 253, 1.00)",
+            }}
+          ></div>
           <svg
-            className="instagram3"
+            className="w-[25px] h-[25px] absolute left-[791px] top-[3072px] overflow-visible"
+            style={{}}
             width="25"
             height="25"
             viewBox="0 0 25 25"
@@ -23,10 +32,16 @@ export default function ExpertDesc2({ className = "" }: expertDesc2Props) {
             />
           </svg>
         </div>
-        <div className="facebook">
-          <div className="ellipse-25"></div>
+        <div className="w-[49px] h-[49px] static">
+          <div
+            className="bg-[#ffffff] rounded-[50%] w-[49px] h-[49px] absolute left-[696px] top-[3060px]"
+            style={{
+              boxShadow: "-2px 6px 16px -1px rgba(230, 233, 253, 1.00)",
+            }}
+          ></div>
           <svg
-            className="facebook-f2"
+            className="w-[25px] h-[25px] absolute left-[707px] top-[3072px] overflow-visible"
+            style={{}}
             width="25"
             height="25"
             viewBox="0 0 25 25"
@@ -39,10 +54,16 @@ export default function ExpertDesc2({ className = "" }: expertDesc2Props) {
             />
           </svg>
         </div>
-        <div className="twitter">
-          <div className="ellipse-26"></div>
+        <div className="w-[49px] h-[49px] static">
+          <div
+            className="bg-[#ffffff] rounded-[50%] w-[49px] h-[49px] absolute left-[613px] top-[3060px]"
+            style={{
+              boxShadow: "-2px 6px 16px -1px rgba(230, 233, 253, 1.00)",
+            }}
+          ></div>
           <svg
-            className="twitter3"
+            className="w-[25px] h-[25px] absolute left-[625px] top-[3072px] overflow-visible"
+            style={{}}
             width="25"
             height="25"
             viewBox="0 0 25 25"
@@ -56,14 +77,18 @@ export default function ExpertDesc2({ className = "" }: expertDesc2Props) {
           </svg>
         </div>
       </div>
-      <div className="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-ut-aliquam-purus-sit2">
+      <div className="text-[#8b8b8b] text-center text-sm font-normal absolute left-[585px] top-[2947px] w-[270px] h-[63px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
         purus sit{" "}
       </div>
-      <div className="bella-sebastian">Bella sebastian </div>
-      <div className="dermatologist">Dermatologist </div>
+      <div className="text-[#091156] text-center text-lg leading-tight font-semibold absolute left-[589px] top-[2904px] w-[263px] h-[37px]">
+        Bella sebastian{" "}
+      </div>
+      <div className="text-[#ff64ae] text-center text-base leading-tight font-semibold absolute left-[662px] top-[2869px]">
+        Dermatologist{" "}
+      </div>
       <img
-        className="unsplash-f-vh-yq-lr-9-e-a"
+        className="rounded-[50%] w-[146px] h-[146px] absolute left-[647px] top-[2670px]"
         src="../assets/unsplash_FVh_yqLR9eA.png"
         alt="avatar3"
       />

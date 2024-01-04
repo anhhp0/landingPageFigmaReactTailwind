@@ -2,7 +2,8 @@ export default function FooterBG({ className = "" }: FooterBgProps) {
   return (
     <div className={`${className}`}>
       <svg
-        className="site-footer__footer-bg"
+        className="w-[1440px] h-[705.34px] absolute left-0 top-[4283.66px] overflow-visible"
+        style={{}}
         width="1440"
         height="706"
         viewBox="0 0 1440 706"

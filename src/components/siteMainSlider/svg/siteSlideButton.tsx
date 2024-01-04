@@ -8,7 +8,8 @@ export default function SiteSlideButton({
   return (
     <button>
       <svg
-        className="slide-button"
+        className="w-[71px] h-[8.15px] absolute left-[685px] top-[805px] overflow-visible"
+        style={{ transform: "translate(0px, -8.15px)" }}
         width="71"
         height="9"
         viewBox="0 0 71 9"

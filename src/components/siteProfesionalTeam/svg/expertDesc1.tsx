@@ -4,12 +4,18 @@ export interface expertDesc1Props {
 
 export default function ExpertDesc1({ className = "" }: expertDesc1Props) {
   return (
-    <div className="box-section-left">
-      <div className="social-media">
-        <div className="instagram">
-          <div className="ellipse-27"></div>
+    <div className="w-[270px] h-[439px] static">
+      <div className="w-[215px] h-[49px] static">
+        <div className="w-[49px] h-[49px] static">
+          <div
+            className="bg-[#ffffff] rounded-[50%] w-[49px] h-[49px] absolute left-[372px] top-[3060px]"
+            style={{
+              boxShadow: "-2px 6px 16px -1px rgba(230, 233, 253, 1.00)",
+            }}
+          ></div>
           <svg
-            className="instagram4"
+            className="w-[25px] h-[25px] absolute left-96 top-[3072px] overflow-visible"
+            style={{}}
             width="25"
             height="25"
             viewBox="0 0 25 25"
@@ -22,10 +28,16 @@ export default function ExpertDesc1({ className = "" }: expertDesc1Props) {
             />
           </svg>
         </div>
-        <div className="facebook">
-          <div className="ellipse-28"></div>
+        <div className="w-[49px] h-[49px] static">
+          <div
+            className="bg-[#ffffff] rounded-[50%] w-[49px] h-[49px] absolute left-[289px] top-[3060px]"
+            style={{
+              boxShadow: "-2px 6px 16px -1px rgba(230, 233, 253, 1.00)",
+            }}
+          ></div>
           <svg
-            className="facebook-f3"
+            className="w-[25px] h-[25px] absolute left-[300px] top-[3072px] overflow-visible"
+            style={{}}
             width="25"
             height="25"
             viewBox="0 0 25 25"
@@ -38,10 +50,16 @@ export default function ExpertDesc1({ className = "" }: expertDesc1Props) {
             />
           </svg>
         </div>
-        <div className="twitter">
-          <div className="ellipse-29"></div>
+        <div className="w-[49px] h-[49px] static">
+          <div
+            className="bg-[#ffffff] rounded-[50%] w-[49px] h-[49px] absolute left-[206px] top-[3060px]"
+            style={{
+              boxShadow: "-2px 6px 16px -1px rgba(230, 233, 253, 1.00)",
+            }}
+          ></div>
           <svg
-            className="twitter4"
+            className="w-[25px] h-[25px] absolute left-[218px] top-[3072px] overflow-visible"
+            style={{}}
             width="25"
             height="25"
             viewBox="0 0 25 25"
@@ -55,14 +73,18 @@ export default function ExpertDesc1({ className = "" }: expertDesc1Props) {
           </svg>
         </div>
       </div>
-      <div className="lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-ut-aliquam-purus-sit3">
+      <div className="text-[#8b8b8b] text-center text-sm font-normal absolute left-[178px] top-[2947px] w-[270px] h-[63px]">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit ut aliquam,
         purus sit{" "}
       </div>
-      <div className="briyan-nevalli">Briyan Nevalli </div>
-      <div className="surgeon">Surgeon </div>
+      <div className="text-[#091156] text-center text-lg leading-tight font-semibold absolute left-[182px] top-[2904px] w-[263px] h-[37px]">
+        Briyan Nevalli{" "}
+      </div>
+      <div className="text-[#ff64ae] text-center text-base leading-tight font-semibold absolute left-[279px] top-[2869px]">
+        Surgeon{" "}
+      </div>
       <img
-        className="unsplash-p-trhfmj-2-j-da"
+        className="rounded-[50%] w-[146px] h-[146px] absolute left-60 top-[2670px]"
         src="../assets/unsplash_pTrhfmj2jDA.png"
         alt="avatar4"
       />

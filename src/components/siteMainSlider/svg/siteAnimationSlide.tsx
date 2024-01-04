@@ -6,9 +6,10 @@ export default function SiteAnimationSlide({
   className = "",
 }: siteAnimationSlideProps) {
   return (
-    <div className="frame-1">
+    <div className="w-[601.5px] h-[397.5px] absolute left-[685px] top-[263px]">
       <svg
-        className="animation-1"
+        className="h-[auto] absolute left-0 top-0 overflow-visible"
+        style={{}}
         width="602"
         height="401"
         viewBox="0 0 602 401"

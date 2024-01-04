@@ -4,9 +4,10 @@ interface playButtonAboutUsProps {
 
 export default function PlayButtonAboutUs({ className = "" }: playButtonAboutUsProps) {
   return (
-    <button className="play-button">
+    <button className="w-[213px] h-[49px] static">
       <svg
-        className="play-button2"
+        className="w-[49px] h-[49px] absolute left-[394px] top-[2148.44px] overflow-visible"
+        style={{}}
         width="49"
         height="50"
         viewBox="0 0 49 50"
@@ -20,7 +21,9 @@ export default function PlayButtonAboutUs({ className = "" }: playButtonAboutUsP
         />
       </svg>
 
-      <div className="watch-video">Watch Video </div>
+      <div className="text-[#8b8b8b] text-left text-base font-semibold absolute left-[456px] top-[2159.44px] w-[151px] h-[27px]">
+        Watch Video{" "}
+      </div>
     </button>
   );
 }

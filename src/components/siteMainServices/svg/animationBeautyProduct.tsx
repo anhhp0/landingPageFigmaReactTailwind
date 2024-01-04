@@ -7,7 +7,8 @@ export default function AnimationBeautyProduct({
 }: animationBeautyProductProps) {
   return (
     <svg
-      className="group"
+      className="w-[113.26px] h-[68.19px] absolute left-[1059.37px] top-[1317.97px] overflow-visible"
+      style={{}}
       width="114"
       height="70"
       viewBox="0 0 114 70"

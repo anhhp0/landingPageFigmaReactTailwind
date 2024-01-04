@@ -2,7 +2,8 @@ export default function SocialIcon_pack({ className = "" }: SocialIcon_packProps
   return (
     <div className={`${className}`}>
       <svg
-        className="site-footer__social-media"
+        className="w-[305px] h-[27.84px] absolute left-[150px] top-[4870px] overflow-visible"
+        style={{}}
         width="305"
         height="28"
         viewBox="0 0 305 28"

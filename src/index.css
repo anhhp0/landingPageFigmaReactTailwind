@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700");
 @import url("https://api.fontshare.com/css?f[]=poppins@400,500,600,700&display=swap");
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 p,
 ol,
 ul {
@@ -528,7 +532,7 @@ strong {
   left: 240px;
   top: 2670px;
 }
-.professional-teams .tittle-desc {
+/* .professional-teams .tittle-desc {
   width: 848px;
   height: 148px;
   position: static;
@@ -537,7 +541,7 @@ strong {
   .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-ut-aliquam {
   color: #8b8b8b;
   text-align: center;
-  /* font-family: "Poppins-Regular", sans-serif; */
+  font-family: "Poppins-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
@@ -549,7 +553,7 @@ strong {
 .professional-teams .the-professional-expert {
   color: #091156;
   text-align: center;
-  /* font-family: "Poppins-SemiBold", sans-serif; */
+  font-family: "Poppins-SemiBold", sans-serif;
   font-size: 36px;
   line-height: 125%;
   font-weight: 600;
@@ -562,14 +566,14 @@ strong {
 .professional-teams .professional-teams2 {
   color: #ff64ae;
   text-align: center;
-  /* font-family: "Poppins-SemiBold", sans-serif; */
+  font-family: "Poppins-SemiBold", sans-serif;
   font-size: 16px;
   line-height: 125%;
   font-weight: 600;
   position: absolute;
   left: 640px;
   top: 2344px;
-}
+} */
 .main-slider,
 .main-slider * {
   box-sizing: border-box;
@@ -1061,6 +1065,7 @@ strong {
   left: 162px;
   top: 52px;
 }
+
 .beautice {
   color: #091156;
   text-align: left;
@@ -1083,7 +1088,7 @@ strong {
   position: absolute;
   inset: 0;
 } */
-.site-footer__bottom-bg {
+/* .site-footer__bottom-bg {
   background: #0d165c;
   width: 1440px;
   height: 125px;
@@ -1092,19 +1097,19 @@ strong {
   top: 4989px;
   transform-origin: 0 0;
   transform: rotate(0deg) scale(1, -1);
-}
-.site-footer__footer-bg {
+} */
+/* .site-footer__footer-bg {
   width: 1440px;
   height: 705.34px;
   position: absolute;
   left: 0px;
   top: 4283.66px;
   overflow: visible;
-}
-.site-footer__alt-desain-studio-2021-all-right-reserved {
+} */
+/* .site-footer__alt-desain-studio-2021-all-right-reserved {
   color: #d7dbff;
   text-align: right;
-  /* font-family: "Poppins-Regular", sans-serif; */
+  font-family: "Poppins-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
@@ -1112,21 +1117,21 @@ strong {
   top: 4868.05px;
   width: 497px;
   height: 31.18px;
-}
-.site-footer__social-media {
+} */
+/* .site-footer__social-media {
   width: 305px;
   height: 27.84px;
   position: absolute;
   left: 150px;
   top: 4870px;
   overflow: visible;
-}
-.site-footer__to-top-button {
+} */
+/* .site-footer__to-top-button {
   width: 36px;
   height: 36px;
   position: static;
-}
-.site-footer__rectangle-6 {
+} */
+/* .site-footer__rectangle-6 {
   background: #ff64ae;
   border-radius: 5px;
   width: 36px;
@@ -1134,25 +1139,25 @@ strong {
   position: absolute;
   left: 1339px;
   top: 4783px;
-}
-.site-footer__arrow-up {
+} */
+/* .site-footer__arrow-up {
   width: 18px;
   height: 18px;
   position: absolute;
   left: 1348px;
   top: 4792px;
   overflow: visible;
-}
-.site-footer__sidebar-3 {
+} */
+/* .site-footer__sidebar-3 {
   width: 215px;
   height: 184px;
   position: static;
-}
-.site-footer__contact {
+} */
+/* .site-footer__contact {
   width: 215px;
   height: 24px;
   position: static;
-}
+} */
 .site-footer__contact2 {
   color: #d7dbff;
   text-align: left;
@@ -1165,23 +1170,23 @@ strong {
   width: 194px;
   height: 24px;
 }
-.site-footer__caret-right {
+/* .site-footer__caret-right {
   width: 13px;
   height: 13px;
   position: absolute;
   left: 1075px;
   top: 4675px;
   overflow: visible;
-}
-.site-footer__careers {
+} */
+/* .site-footer__careers {
   width: 215px;
   height: 24px;
   position: static;
-}
-.site-footer__blog {
+} */
+/* .site-footer__blog {
   color: #d7dbff;
   text-align: left;
-  /* font-family: "Poppins-Regular", sans-serif; */
+  font-family: "Poppins-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
@@ -1189,24 +1194,24 @@ strong {
   top: 4634px;
   width: 194px;
   height: 24px;
-}
-.site-footer__caret-right2 {
+} */
+/* .site-footer__caret-right2 {
   width: 13px;
   height: 13px;
   position: absolute;
   left: 1075px;
   top: 4640px;
   overflow: visible;
-}
-.site-footer__privacy {
+} */
+/* .site-footer__privacy {
   width: 215px;
   height: 24px;
   position: static;
-}
-.site-footer__privacy-policy {
+} */
+/* .site-footer__privacy-policy {
   color: #d7dbff;
   text-align: left;
-  /* font-family: "Poppins-Regular", sans-serif; */
+  font-family: "Poppins-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
@@ -1214,24 +1219,24 @@ strong {
   top: 4599px;
   width: 194px;
   height: 24px;
-}
-.site-footer__caret-right3 {
+} */
+/* .site-footer__caret-right3 {
   width: 13px;
   height: 13px;
   position: absolute;
   left: 1075px;
   top: 4605px;
   overflow: visible;
-}
-.site-footer__terms {
+} */
+/* .site-footer__terms {
   width: 215px;
   height: 24px;
   position: static;
-}
-.site-footer__terms-conditions {
+} */
+/* .site-footer__terms-conditions {
   color: #d7dbff;
   text-align: left;
-  /* font-family: "Poppins-Regular", sans-serif; */
+  font-family: "Poppins-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
@@ -1239,19 +1244,19 @@ strong {
   top: 4564px;
   width: 194px;
   height: 24px;
-}
-.site-footer__caret-right4 {
+} */
+/* .site-footer__caret-right4 {
   width: 13px;
   height: 13px;
   position: absolute;
   left: 1075px;
   top: 4570px;
   overflow: visible;
-}
-.site-footer__informations {
+} */
+/* .site-footer__informations {
   color: #ffffff;
   text-align: left;
-  /* font-family: "Poppins-SemiBold", sans-serif; */
+  font-family: "Poppins-SemiBold", sans-serif;
   font-size: 18px;
   font-weight: 600;
   position: absolute;
@@ -1259,8 +1264,8 @@ strong {
   top: 4509px;
   width: 175px;
   height: 31px;
-}
-.site-footer__sidebar-2 {
+} */
+/* .site-footer__sidebar-2 {
   width: 131px;
   height: 219px;
   position: static;
@@ -1273,7 +1278,7 @@ strong {
 .site-footer__team2 {
   color: #d7dbff;
   text-align: left;
-  /* font-family: "Poppins-Regular", sans-serif; */
+  font-family: "Poppins-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
@@ -1298,7 +1303,7 @@ strong {
 .site-footer__gallery {
   color: #d7dbff;
   text-align: left;
-  /* font-family: "Poppins-Regular", sans-serif; */
+  font-family: "Poppins-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
@@ -1323,7 +1328,7 @@ strong {
 .site-footer__services2 {
   color: #d7dbff;
   text-align: left;
-  /* font-family: "Poppins-Regular", sans-serif; */
+  font-family: "Poppins-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
@@ -1348,7 +1353,7 @@ strong {
 .site-footer__about2 {
   color: #d7dbff;
   text-align: left;
-  /* font-family: "Poppins-Regular", sans-serif; */
+  font-family: "Poppins-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
@@ -1373,7 +1378,7 @@ strong {
 .site-footer__home2 {
   color: #d7dbff;
   text-align: left;
-  /* font-family: "Poppins-Regular", sans-serif; */
+  font-family: "Poppins-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
@@ -1393,7 +1398,7 @@ strong {
 .site-footer__pages {
   color: #ffffff;
   text-align: left;
-  /* font-family: "Poppins-SemiBold", sans-serif; */
+  font-family: "Poppins-SemiBold", sans-serif;
   font-size: 18px;
   font-weight: 600;
   position: absolute;
@@ -1410,7 +1415,7 @@ strong {
 .site-footer__mail-company-com {
   color: #d7dbff;
   text-align: left;
-  /* font-family: "Poppins-MediumItalic", sans-serif; */
+  font-family: "Poppins-MediumItalic", sans-serif;
   font-size: 14px;
   font-weight: 500;
   font-style: italic;
@@ -1422,7 +1427,7 @@ strong {
 }
 .site-footer-mail-company-com-span {
   color: #d7dbff;
-  /* font-family: "Poppins-MediumItalic", sans-serif; */
+  font-family: "Poppins-MediumItalic", sans-serif;
   font-size: 14px;
   font-weight: 500;
   font-style: italic;
@@ -1438,7 +1443,7 @@ strong {
 .site-footer___521-569-8966 {
   color: #d7dbff;
   text-align: left;
-  /* font-family: "Poppins-MediumItalic", sans-serif; */
+  font-family: "Poppins-MediumItalic", sans-serif;
   font-size: 14px;
   font-weight: 500;
   font-style: italic;
@@ -1451,7 +1456,7 @@ strong {
 .site-footer__baker-steet-101-ny-united-states {
   color: #d7dbff;
   text-align: left;
-  /* font-family: "Poppins-MediumItalic", sans-serif; */
+  font-family: "Poppins-MediumItalic", sans-serif;
   font-size: 14px;
   font-weight: 500;
   font-style: italic;
@@ -1475,13 +1480,13 @@ strong {
 }
 .site-footer-beautice-is-a-beauty-clinic-word-press-theme-span {
   color: #d7dbff;
-  /* font-family: "Poppins-Bold", sans-serif; */
+  font-family: "Poppins-Bold", sans-serif;
   font-size: 16px;
   font-weight: 700;
 }
 .site-footer-beautice-is-a-beauty-clinic-word-press-theme-span2 {
   color: #d7dbff;
-  /* font-family: "Poppins-Regular", sans-serif; */
+  font-family: "Poppins-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
 }
@@ -1529,7 +1534,7 @@ strong {
 .site-footer__beautice {
   color: #ffffff;
   text-align: left;
-  /* font-family: "Poppins-Bold", sans-serif; */
+  font-family: "Poppins-Bold", sans-serif;
   font-size: 24px;
   font-weight: 700;
   position: absolute;
@@ -1537,13 +1542,13 @@ strong {
   top: 4539px;
   width: 161px;
   height: 34px;
-}
-.contact-us,
+} */
+/* .contact-us,
 .contact-us * {
   box-sizing: border-box;
 }
 .contact-us {
-  /* position: absolute; */
+  position: absolute;
   inset: 0;
 }
 .contact-us .background-bubble {
@@ -1578,7 +1583,7 @@ strong {
 .contact-us .send-message {
   color: #ffffff;
   text-align: center;
-  /* font-family: "Poppins-SemiBold", sans-serif; */
+  font-family: "Poppins-SemiBold", sans-serif;
   font-size: 16px;
   font-weight: 600;
   position: absolute;
@@ -1609,7 +1614,7 @@ strong {
 .contact-us .your-inquiry-here {
   color: #c5c5c5;
   text-align: left;
-  /* font-family: "Poppins-Regular", sans-serif; */
+  font-family: "Poppins-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
@@ -1640,7 +1645,7 @@ strong {
 .contact-us .subject-message {
   color: #c5c5c5;
   text-align: left;
-  /* font-family: "Poppins-Regular", sans-serif; */
+  font-family: "Poppins-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
@@ -1670,7 +1675,7 @@ strong {
 .contact-us .email-address {
   color: #c5c5c5;
   text-align: left;
-  /* font-family: "Poppins-Regular", sans-serif; */
+  font-family: "Poppins-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
@@ -1700,7 +1705,7 @@ strong {
 .contact-us .last-name {
   color: #c5c5c5;
   text-align: left;
-  /* font-family: "Poppins-Regular", sans-serif; */
+  font-family: "Poppins-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
@@ -1731,7 +1736,7 @@ strong {
 .contact-us .first-name {
   color: #c5c5c5;
   text-align: left;
-  /* font-family: "Poppins-Regular", sans-serif; */
+  font-family: "Poppins-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
@@ -1748,7 +1753,7 @@ strong {
 .contact-us .lorem-ipsum-dolor-sit-amet-nulla-turapis-tellus {
   color: #8b8b8b;
   text-align: left;
-  /* font-family: "Poppins-Regular", sans-serif; */
+  font-family: "Poppins-Regular", sans-serif;
   font-size: 16px;
   font-weight: 400;
   position: absolute;
@@ -1760,7 +1765,7 @@ strong {
 .contact-us .send-your-inquiry-to-our-expert-team {
   color: #091156;
   text-align: left;
-  /* font-family: "Poppins-SemiBold", sans-serif; */
+  font-family: "Poppins-SemiBold", sans-serif;
   font-size: 36px;
   line-height: 125%;
   font-weight: 600;
@@ -1773,7 +1778,7 @@ strong {
 .contact-us .contact-us2 {
   color: #ff64ae;
   text-align: left;
-  /* font-family: "Poppins-SemiBold", sans-serif; */
+  font-family: "Poppins-SemiBold", sans-serif;
   font-size: 16px;
   line-height: 125%;
   font-weight: 600;
@@ -1884,7 +1889,7 @@ strong {
   left: 134.59px;
   top: 148.28px;
   overflow: visible;
-}
+} */
 .about-us,
 .about-us * {
   box-sizing: border-box;

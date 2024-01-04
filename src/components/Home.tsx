@@ -14,24 +14,18 @@ export default function Home({ className = "" }: HomeProps) {
       className={`font-poppins inline-flex h-[4989px] w-[1440px] resize flex-row overflow-hidden ${className}`}
     >
       <div className="relative flex h-full w-full items-end overflow-clip bg-white pb-[918px] pt-[3142px] pr-64">
-        <SiteFooter className={"*"} />
+        <SiteMainSlider className="" />
+        <SiteHeader className="" />
         <BackgroundBubble className="relative mr-[-0.33px] h-[929px] w-[1176px]" />
-        <SiteContactUs className="" />
-        <SiteProfessionalTeam className="" />
-
         <SiteAboutUs className="" />
-
         <CoreServices className="" />
 
-        {/* ////////////// */}
-        {/*some information  */}
-        <SiteMainSlider className="" />
-        {/*some information  */}
-        <SiteHeader className=""/>
-        
+        <SiteProfessionalTeam className="" />
+        <SiteContactUs className="" />
+        <SiteFooter className={"*"} />
       </div>
     </div>
-  );
+  )
 }
 
 interface HomeProps {

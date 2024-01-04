@@ -11,7 +11,7 @@ export interface siteAboutUsProps {
 
 export default function SiteAboutUs({ className = "" }: siteAboutUsProps) {
   return (
-    <div className={"about-us " + className}>
+    <div className={className}>
       <BgAboutUs className="" />
       <ThumbnailAboutUs className="" />
       <PlayButtonAboutUs className="" />

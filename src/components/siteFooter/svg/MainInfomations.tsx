@@ -1,10 +1,15 @@
-export default function MainInfomations({ className = "" }: MainInfomationsProps) {
+export default function MainInfomations({
+  className = "",
+}: MainInfomationsProps) {
   return (
-    <div className="site-footer__sidebar-2">
-      <div className="site-footer__team">
-        <div className="site-footer__team2">Team </div>
+    <div className="w-[131px] h-[219px] static">
+      <div className="w-[131px] h-6 static">
+        <div className="text-[#d7dbff] text-left text-base font-normal absolute left-[792px] top-[4704px] w-[110px] h-6">
+          Team{" "}
+        </div>
         <svg
-          className="site-footer__caret-right5"
+          className="w-[13px] h-[13px] absolute left-[771px] top-[4710px] overflow-visible"
+          style={{}}
           width="13"
           height="13"
           viewBox="0 0 13 13"
@@ -17,10 +22,13 @@ export default function MainInfomations({ className = "" }: MainInfomationsProps
           />
         </svg>
       </div>
-      <div className="site-footer__portfolio">
-        <div className="site-footer__gallery">Gallery </div>
+      <div className="w-[131px] h-6 static">
+        <div className="text-[#d7dbff] text-left text-base font-normal absolute left-[792px] top-[4669px] w-[110px] h-6">
+          Gallery
+        </div>
         <svg
-          className="site-footer__caret-right6"
+          className="w-[13px] h-[13px] absolute left-[771px] top-[4675px] overflow-visible"
+          style={{}}
           width="13"
           height="13"
           viewBox="0 0 13 13"
@@ -33,10 +41,13 @@ export default function MainInfomations({ className = "" }: MainInfomationsProps
           />
         </svg>
       </div>
-      <div className="site-footer__services">
-        <div className="site-footer__services2">Services </div>
+      <div className="w-[131px] h-6 static">
+        <div className="text-[#d7dbff] text-left  text-base font-normal absolute left-[792px] top-[4634px] w-[110px] h-6">
+          Services
+        </div>
         <svg
-          className="site-footer__caret-right7"
+          className="w-[13px] h-[13px] absolute left-[771px] top-[4640px] overflow-visible"
+          style={{}}
           width="13"
           height="13"
           viewBox="0 0 13 13"
@@ -49,10 +60,13 @@ export default function MainInfomations({ className = "" }: MainInfomationsProps
           />
         </svg>
       </div>
-      <div className="site-footer__about">
-        <div className="site-footer__about2">About </div>
+      <div className="w-[131px] h-6 static">
+        <div className="text-[#d7dbff] text-left  text-base font-normal absolute left-[792px] top-[4599px] w-[110px] h-6">
+          About{" "}
+        </div>
         <svg
-          className="site-footer__caret-right8"
+          className="w-[13px] h-[13px] absolute left-[771px] top-[4605px] overflow-visible"
+          style={{}}
           width="13"
           height="13"
           viewBox="0 0 13 13"
@@ -65,10 +79,13 @@ export default function MainInfomations({ className = "" }: MainInfomationsProps
           />
         </svg>
       </div>
-      <div className="site-footer__home">
-        <div className="site-footer__home2">Home </div>
+      <div className="w-[131px] h-6 static">
+        <div className="text-[#d7dbff] text-left text-base font-normal absolute left-[792px] top-[4564px] w-[110px] h-6">
+          Home
+        </div>
         <svg
-          className="site-footer__caret-right9"
+          className="w-[13px] h-[13px] absolute left-[771px] top-[4570px] overflow-visible"
+          style={{}}
           width="13"
           height="13"
           viewBox="0 0 13 13"
@@ -81,7 +98,9 @@ export default function MainInfomations({ className = "" }: MainInfomationsProps
           />
         </svg>
       </div>
-      <div className="site-footer__pages">Pages </div>
+      <div className="text-[#ffffff] text-left  text-lg font-semibold absolute left-[771px] top-[4509px] w-[129px] h-[31px]">
+        Pages
+      </div>
     </div>
   );
 }
@@ -89,4 +108,3 @@ export default function MainInfomations({ className = "" }: MainInfomationsProps
 interface MainInfomationsProps {
   className: string;
 }
-

@@ -5,7 +5,8 @@ interface bgAboutUsProps {
 export default function BgAboutUs({ className = "" }: bgAboutUsProps) {
   return (
     <svg
-      className="background-bubble"
+      className="w-[948.15px] h-[1028.89px] absolute left-[493px] top-[1448px] overflow-visible"
+      style={{}}
       width="947"
       height="1029"
       viewBox="0 0 947 1029"

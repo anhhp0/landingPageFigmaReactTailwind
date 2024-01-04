@@ -1,14 +1,15 @@
-export default function BackgroundBubble({
-  className = "",
-}: BackgroundBubbleProps) {
-  return (
-    <div className={`${className}`}>
+export interface siteContactUsBgProps {
+  className: string;
+}
+
+export default function SiteContactUsBg({ className = "" }: siteContactUsBgProps) {
+    return (
       <svg
-        width="100%"
-        height="100%"
-        style={{ overflow: "visible" }}
-        preserveAspectRatio="none"
-        viewBox="0 0 1175.73 929"
+        className="w-[1175.73px] h-[929px] absolute left-[1175.4px] top-[3142px] overflow-visible"
+        style={{ transform: "translate(-1175.4px, 0px)" }}
+        width="1176"
+        height="929"
+        viewBox="0 0 1176 929"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
       >
@@ -29,8 +30,8 @@ export default function BackgroundBubble({
             y2="942.288"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#EAECFF" />
-            <stop offset="1" stop-color="white" stop-opacity="0" />
+            <stop stopColor="#EAECFF" />
+            <stop offset="1" stopColor="white" stopOpacity="0" />
           </linearGradient>
           <linearGradient
             id="paint1_linear_97_171"
@@ -40,15 +41,10 @@ export default function BackgroundBubble({
             y2="863.313"
             gradientUnits="userSpaceOnUse"
           >
-            <stop stop-color="#E4E7FF" />
-            <stop offset="1" stop-color="white" stop-opacity="0" />
+            <stop stopColor="#E4E7FF" />
+            <stop offset="1" stopColor="white" stopOpacity="0" />
           </linearGradient>
         </defs>
       </svg>
-    </div>
-  );
-}
-
-interface BackgroundBubbleProps {
-  className: string;
+    );
 }

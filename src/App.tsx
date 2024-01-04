@@ -4,7 +4,7 @@ import { SpeedInsights } from "@vercel/speed-insights/react";
 function App() {
   return (
     <div>
-      <Home className="" />;
+      <Home className="" />
       <SpeedInsights />
     </div>
   );

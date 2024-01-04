@@ -5,7 +5,8 @@ interface siteSlideBgProps {
 export default function SiteSlideBg({ className = "" }: siteSlideBgProps) {
   return (
     <svg
-      className="slide-background"
+      className="w-[1266.42px] h-[743px] absolute left-0 top-0 overflow-visible"
+      style={{}}
       width="1267"
       height="743"
       viewBox="0 0 1267 743"

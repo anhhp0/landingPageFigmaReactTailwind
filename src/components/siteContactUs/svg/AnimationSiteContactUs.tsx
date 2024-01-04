@@ -4,11 +4,12 @@ export interface AnimationSiteContactUsProps {
 
 export default function AnimationSiteContactUs({ className = "" }: AnimationSiteContactUsProps) {
     return (
-      <div className="contact-animations">
-        <div className="rectangle-52"></div>
-        <div className="contact-animations2">
+      <div className="w-[520px] h-[614px] static">
+        <div className="bg-[rgba(164,164,164,0.00)] w-[520px] h-[614px] absolute left-[150px] top-[3508px]"></div>
+        <div className="w-[519px] h-[402px] absolute left-[151px] top-[3600px] overflow-hidden">
           <svg
-            className="group"
+            className="h-[auto] absolute right-[1.88%] left-[1.97%] w-[96.15%] bottom-[10.99%] top-[2.89%] h-[86.12%] overflow-visible"
+            style={{}}
             width="500"
             height="347"
             viewBox="0 0 500 347"
@@ -54,7 +55,8 @@ export default function AnimationSiteContactUs({ className = "" }: AnimationSite
           </svg>
 
           <svg
-            className="group2"
+            className="h-[auto] absolute left-[61.96px] top-[12.08px] overflow-visible"
+            style={{}}
             width="394"
             height="327"
             viewBox="0 0 394 327"
@@ -2342,7 +2344,8 @@ export default function AnimationSiteContactUs({ className = "" }: AnimationSite
           </svg>
 
           <svg
-            className="x-3-c-path-x-3-e-359"
+            className="h-[auto] absolute right-[12.67%] left-[12.76%] w-[74.57%] bottom-[4.5%] top-[89.87%] h-[5.63%] overflow-visible"
+            style={{}}
             width="388"
             height="23"
             viewBox="0 0 388 23"
@@ -2356,7 +2359,8 @@ export default function AnimationSiteContactUs({ className = "" }: AnimationSite
           </svg>
 
           <svg
-            className="group11"
+            className="h-[auto] absolute left-[387.86px] top-[286.85px] overflow-visible"
+            style={{}}
             width="66"
             height="88"
             viewBox="0 0 66 88"
@@ -2398,7 +2402,8 @@ export default function AnimationSiteContactUs({ className = "" }: AnimationSite
           </svg>
 
           <svg
-            className="group15"
+            className="h-[auto] absolute right-[23.31%] left-[56.68%] w-[20.01%] bottom-[7.11%] top-[46.75%] h-[46.15%] overflow-visible"
+            style={{}}
             width="104"
             height="187"
             viewBox="0 0 104 187"
@@ -2460,7 +2465,8 @@ export default function AnimationSiteContactUs({ className = "" }: AnimationSite
           </svg>
 
           <svg
-            className="group17"
+            className="h-[auto] absolute right-[30.83%] left-[44.88%] w-[24.29%] bottom-[7.11%] top-[29.24%] h-[63.65%] overflow-visible"
+            style={{}}
             width="127"
             height="257"
             viewBox="0 0 127 257"
@@ -2730,7 +2736,8 @@ export default function AnimationSiteContactUs({ className = "" }: AnimationSite
           </svg>
 
           <svg
-            className="group33"
+            className="h-[auto] absolute right-[23.45%] left-[67.89%] w-[8.66%] bottom-[62.64%] top-[28.29%] h-[9.08%] overflow-visible"
+            style={{}}
             width="46"
             height="38"
             viewBox="0 0 46 38"
@@ -2764,7 +2771,8 @@ export default function AnimationSiteContactUs({ className = "" }: AnimationSite
           </svg>
 
           <svg
-            className="group35"
+            className="h-[auto] absolute left-[67.14px] top-[64.22px] overflow-visible"
+            style={{}}
             width="197"
             height="87"
             viewBox="0 0 197 87"
@@ -2830,7 +2838,8 @@ export default function AnimationSiteContactUs({ className = "" }: AnimationSite
           </svg>
 
           <svg
-            className="group42"
+            className="h-[auto] absolute left-[134.59px] top-[148.28px] overflow-visible"
+            style={{}}
             width="194"
             height="226"
             viewBox="0 0 194 226"
