@@ -81,6 +81,9 @@ textarea::placeholder {
   opacity: 1; /* 1 */
   color: #9ca3af; /* 2 */
 }
+input, textarea{
+  font-family: "Poppins";
+}
 button,
 [role="button"] {
   cursor: pointer;
@@ -1707,6 +1710,7 @@ strong {
   height: 28px;
 }
 .contact-us .first-name-fields {
+  font-family: "Poppins-Regular", sans-serif;
   width: 242.21px;
   height: 61.58px;
   position: static;

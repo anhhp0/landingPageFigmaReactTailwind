@@ -4,7 +4,6 @@ export interface siteFormContactUsProps {
   className: string;
 }
 
-
 const SiteFormContactUs: React.FC<siteFormContactUsProps> = ({
   className = "",
 }) => {
@@ -16,13 +15,13 @@ const SiteFormContactUs: React.FC<siteFormContactUsProps> = ({
     yourInquiry: "",
   });
 
-//   const [errors, setErrors] = useState({
-//     firstName: "",
-//     lastName: "",
-//     emailAddress: "",
-//     subjectMessage: "",
-//     yourInquiry: "",
-//   });
+  //   const [errors, setErrors] = useState({
+  //     firstName: "",
+  //     lastName: "",
+  //     emailAddress: "",
+  //     subjectMessage: "",
+  //     yourInquiry: "",
+  //   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, value } = e.target;
@@ -32,41 +31,31 @@ const SiteFormContactUs: React.FC<siteFormContactUsProps> = ({
     });
   };
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-    // Thực hiện xác thực tại đây
-    if (validateForm()) {
-      // Xử lý khi gửi form ở đây
-      console.log(formData);
-    }
-  };
+  // const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  //   e.preventDefault();
+  //   // Thực hiện xác thực tại đây
+  //   if (validateForm()) {
+  //     // Xử lý khi gửi form ở đây
+  //     console.log(formData);
+  //   }
+  // };
 
-  const validateForm = () => {
-    // Xác thực và cập nhật trạng thái lỗi
-    const newErrors = {
-      firstName: "",
-      lastName: "",
-      emailAddress: "",
-      subjectMessage: "",
-      yourInquiry: "",
-    };
+  // const validateForm = () => {
+  //   // Xác thực và cập nhật trạng thái lỗi
+  //   const newErrors = {
+  //     firstName: "",
+  //     lastName: "",
+  //     emailAddress: "",
+  //     subjectMessage: "",
+  //     yourInquiry: "",
+  //   };
 
-    // Thực hiện xác thực tùy thuộc vào yêu cầu của bạn
-    // Ở đây là ví dụ đơn giản chỉ kiểm tra trường trống
-    // if (formData.firstName.trim() === "") {
-    //   newErrors.firstName = "Trường này là bắt buộc";
-    // }
-
-    // Thêm các kiểm tra khác tương tự cho các trường khác
-
-    // setErrors(newErrors);
-
-    // Trả về true nếu không có lỗi, ngược lại trả về false
-    return Object.values(newErrors).every((error) => error === "");
-  };
+  //   return Object.values(newErrors).every((error) => error === "");
+  // };
 
   return (
-    <form className={`contact-form ${className}`} onSubmit={handleSubmit}>
+    // <form className={`contact-form ${className}`} onSubmit={handleSubmit}>
+    <form className={`contact-form ${className}`}>
       <div className="first-name-fields">
         <div>
           <input
@@ -130,17 +119,13 @@ const SiteFormContactUs: React.FC<siteFormContactUsProps> = ({
             placeholder="Your inquiry here"
           /> */}
           <textarea
-            // className="your-inquiry-here"
+
             className="rectangle-5"
             name="yourInquiry"
             placeholder="Your inquiry here"
-            // style="height:200px"
-            // value={formData.yourInquiry}
+
           ></textarea>
         </div>
-        {/* {errors.firstName && (
-          <div className="error-message">{errors.yourInquiry}</div>
-        )} */}
       </div>
 
       <div className="send-message-button">
