@@ -28,6 +28,7 @@ export default function SiteFooter({ className = "" }: SiteFooterProps) {
       <MainInfomations className="" />
       <AddrressInfomations className="" />
       <div className="text-[#d7dbff] text-right text-base font-normal absolute left-[793px] top-[4868.05px] w-[497px] h-[31.18px]">
+        {/* <div className="text-[#d7dbff] text-right text-base font-normal absolute left-[793px] top-[4868.05px] w-[497px] h-[31.18px]"> */}
         © AltDesain Studio 2021 - All right reserved. Footer
       </div>
     </div>
