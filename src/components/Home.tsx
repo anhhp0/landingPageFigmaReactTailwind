@@ -11,21 +11,22 @@ import SiteHeader from "./siteHeader/page";
 export default function Home({ className = "" }: HomeProps) {
   return (
     <div
-      className={`font-poppins inline-flex h-[4989px] w-[1440px] resize flex-row overflow-hidden ${className}`}
+      className={`font-poppins inline-flex h-[311.813rem] w-[90rem] resize flex-row overflow-hidden ${className}`}
     >
-      <div className="relative flex h-full w-full items-end overflow-clip bg-white pb-[918px] pt-[3142px] pr-64">
+      <div className="relative flex h-full w-full items-end overflow-clip bg-white pb-[57.375rem] pt-[196.375rem] pr-[4rem]">
         <SiteMainSlider className="" />
         <SiteHeader className="" />
-        <BackgroundBubble className="relative mr-[-0.33px] h-[929px] w-[1176px]" />
+        <SiteContactUs className="" />
+        <BackgroundBubble className="relative mr-[-0.0208125rem] h-[58.0625rem] w-[73.5rem]" />
         <SiteAboutUs className="" />
         <CoreServices className="" />
 
         <SiteProfessionalTeam className="" />
-        <SiteContactUs className="" />
+
         <SiteFooter className={"*"} />
       </div>
     </div>
-  )
+  );
 }
 
 interface HomeProps {

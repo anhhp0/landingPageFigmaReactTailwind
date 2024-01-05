@@ -15,7 +15,7 @@ export default function SiteFooter({ className = "" }: SiteFooterProps) {
       className={`inset-x-0 bottom-0 flex h-96 items-center justify-center leading-[normal] tracking-widest ${className}`}
     >
       <div
-        className="bg-[#0d165c] w-[1440px] h-[125px] absolute left-0 top-[4989px]"
+        className="bg-[#0d165c] w-full h-[125px] absolute left-0 top-[4989px]"
         style={{
           transformOrigin: "0 0",
           transform: "rotate(0deg) scale(1, -1)",
