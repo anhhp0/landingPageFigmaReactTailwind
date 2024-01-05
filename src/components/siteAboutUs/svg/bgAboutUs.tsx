@@ -7,8 +7,8 @@ export default function BgAboutUs({ className = "" }: bgAboutUsProps) {
     <svg
       className="w-[948.15px] h-[1028.89px] absolute left-[493px] top-[1448px] overflow-visible"
       style={{}}
-      width="947"
-      height="1029"
+      width="100%"
+      height="100%"
       viewBox="0 0 947 1029"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

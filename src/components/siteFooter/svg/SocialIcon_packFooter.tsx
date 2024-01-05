@@ -4,8 +4,8 @@ export default function SocialIcon_pack({ className = "" }: SocialIcon_packProps
       <svg
         className="w-[305px] h-[27.84px] absolute left-[150px] top-[4870px] overflow-visible"
         style={{}}
-        width="305"
-        height="28"
+        width="100%"
+        height="100%"
         viewBox="0 0 305 28"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

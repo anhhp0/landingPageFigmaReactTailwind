@@ -10,8 +10,8 @@ export default function SiteAnimationSlide({
       <svg
         className="h-[auto] absolute left-0 top-0 overflow-visible"
         style={{}}
-        width="602"
-        height="401"
+        width="100%"
+        height="100%"
         viewBox="0 0 602 401"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

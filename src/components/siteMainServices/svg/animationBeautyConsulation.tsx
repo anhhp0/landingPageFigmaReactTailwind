@@ -11,8 +11,8 @@ export default function AnimationBeautyConsulation({
     <svg
       className="w-[106.6px] h-[73px] absolute right-[73.99%] left-[18.61%] w-[7.4%] bottom-[72.16%] top-[26.38%] h-[1.46%] overflow-visible"
       style={{}}
-      width="107"
-      height="73"
+      width="100%"
+      height="100%"
       viewBox="0 0 107 73"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

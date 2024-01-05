@@ -20,8 +20,8 @@ export default function ExpertDesc2({ className = "" }: expertDesc2Props) {
           <svg
             className="w-[25px] h-[25px] absolute left-[791px] top-[3072px] overflow-visible"
             style={{}}
-            width="25"
-            height="25"
+            width="100%"
+            height="100%"
             viewBox="0 0 25 25"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -42,8 +42,8 @@ export default function ExpertDesc2({ className = "" }: expertDesc2Props) {
           <svg
             className="w-[25px] h-[25px] absolute left-[707px] top-[3072px] overflow-visible"
             style={{}}
-            width="25"
-            height="25"
+            width="100%"
+            height="100%"
             viewBox="0 0 25 25"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
@@ -64,8 +64,8 @@ export default function ExpertDesc2({ className = "" }: expertDesc2Props) {
           <svg
             className="w-[25px] h-[25px] absolute left-[625px] top-[3072px] overflow-visible"
             style={{}}
-            width="25"
-            height="25"
+            width="100%"
+            height="100%"
             viewBox="0 0 25 25"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"

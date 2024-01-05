@@ -7,8 +7,8 @@ export default function SiteContactUsBg({ className = "" }: siteContactUsBgProps
       <svg
         className="w-[1175.73px] h-[929px] absolute left-[1175.4px] top-[3142px] overflow-visible"
         style={{ transform: "translate(-1175.4px, 0px)" }}
-        width="1176"
-        height="929"
+        width="100%"
+        height="100%"
         viewBox="0 0 1176 929"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

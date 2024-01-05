@@ -8,8 +8,8 @@ export default function PlayButtonAboutUs({ className = "" }: playButtonAboutUsP
       <svg
         className="w-[49px] h-[49px] absolute left-[394px] top-[2148.44px] overflow-visible"
         style={{}}
-        width="49"
-        height="50"
+        width="100%"
+        height="100%"
         viewBox="0 0 49 50"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

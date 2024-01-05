@@ -22,14 +22,17 @@ export default function SiteFooter({ className = "" }: SiteFooterProps) {
         }}
       ></div>
       <FooterBG className="" />
-      <SocialIcon_pack className="" />
+
       <ArrowBackToTop className="" />
       <OtherInfomations className="" />
       <MainInfomations className="" />
       <AddrressInfomations className="" />
-      <div className="text-[#d7dbff] text-right text-base font-normal absolute left-[793px] top-[4868.05px] w-[497px] h-[31.18px]">
-        {/* <div className="text-[#d7dbff] text-right text-base font-normal absolute left-[793px] top-[4868.05px] w-[497px] h-[31.18px]"> */}
-        © AltDesain Studio 2021 - All right reserved. Footer
+      <div className="flex w-full max-w-[1140px] items-stretch justify-between gap-5 mb-10 max-md:max-w-full max-md:flex-wrap max-md:mb-10">
+        <SocialIcon_pack className="" />
+        <div className="text-[#d7dbff] text-right text-base font-normal absolute left-[793px] top-[4868.05px] w-[497px] h-[31.18px] tracking-widest self-center grow shrink basis-auto my-auto">
+          {/* <div className="text-[#d7dbff] text-right text-base font-normal absolute left-[793px] top-[4868.05px] w-[497px] h-[31.18px]"> */}
+          © AltDesain Studio 2021 - All right reserved. Footer
+        </div>
       </div>
     </div>
   );

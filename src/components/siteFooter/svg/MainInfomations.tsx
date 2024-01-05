@@ -10,8 +10,8 @@ export default function MainInfomations({
         <svg
           className="w-[13px] h-[13px] absolute left-[771px] top-[4710px] overflow-visible"
           style={{}}
-          width="13"
-          height="13"
+          width="100%"
+          height="100%"
           viewBox="0 0 13 13"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -29,8 +29,8 @@ export default function MainInfomations({
         <svg
           className="w-[13px] h-[13px] absolute left-[771px] top-[4675px] overflow-visible"
           style={{}}
-          width="13"
-          height="13"
+          width="100%"
+          height="100%"
           viewBox="0 0 13 13"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -48,8 +48,8 @@ export default function MainInfomations({
         <svg
           className="w-[13px] h-[13px] absolute left-[771px] top-[4640px] overflow-visible"
           style={{}}
-          width="13"
-          height="13"
+          width="100%"
+          height="100%"
           viewBox="0 0 13 13"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -67,8 +67,8 @@ export default function MainInfomations({
         <svg
           className="w-[13px] h-[13px] absolute left-[771px] top-[4605px] overflow-visible"
           style={{}}
-          width="13"
-          height="13"
+          width="100%"
+          height="100%"
           viewBox="0 0 13 13"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"
@@ -86,8 +86,8 @@ export default function MainInfomations({
         <svg
           className="w-[13px] h-[13px] absolute left-[771px] top-[4570px] overflow-visible"
           style={{}}
-          width="13"
-          height="13"
+          width="100%"
+          height="100%"
           viewBox="0 0 13 13"
           fill="none"
           xmlns="http://www.w3.org/2000/svg"

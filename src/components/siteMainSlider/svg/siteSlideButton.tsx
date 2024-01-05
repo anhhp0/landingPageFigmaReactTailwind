@@ -10,8 +10,8 @@ export default function SiteSlideButton({
       <svg
         className="w-[71px] h-[8.15px] absolute left-[685px] top-[805px] overflow-visible"
         style={{ transform: "translate(0px, -8.15px)" }}
-        width="71"
-        height="9"
+        width="100%"
+        height="100%"
         viewBox="0 0 71 9"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"

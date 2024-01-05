@@ -9,8 +9,8 @@ export default function AnimationSkinTreatments({
     <svg
       className="w-[106.4px] h-[79.4px] absolute right-[46.22%] left-[46.39%] w-[7.39%] bottom-[72.17%] top-[26.24%] h-[1.59%] overflow-visible"
       style={{}}
-      width="107"
-      height="80"
+      width="100%"
+      height="100%"
       viewBox="0 0 107 80"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
