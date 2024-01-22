@@ -5,6 +5,7 @@ import ArrowBackToTop from "./svg/ArrowBackToTop";
 import OtherInfomations from "./svg/OtherInfomations";
 import MainInfomations from "./svg/MainInfomations";
 import AddrressInfomations from "./svg/AddressInfomations";
+import SiteFormContactUs from "../siteContactUs/svg/ContactUsForm";
 
 interface SiteFooterProps {
   className: string;
@@ -37,3 +38,4 @@ export default function SiteFooter({ className = "" }: SiteFooterProps) {
     </div>
   );
 }
+

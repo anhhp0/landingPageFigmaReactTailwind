@@ -11,7 +11,7 @@ import SiteHeader from "./siteHeader/page";
 export default function Home({ className = "" }: HomeProps) {
   return (
     <div
-      className={`font-poppins inline-flex h-[311.813rem] w-[90rem] resize flex-row overflow-hidden ${className}`}
+      className={`font-poppins inline-flex h-[311.813rem] w-[90rem] resize flex-col overflow-y-auto overflow-x-hidden ${className}`}
     >
       <div className="relative flex h-full w-full items-end overflow-clip bg-white pb-[57.375rem] pt-[196.375rem] pr-[4rem]">
         <SiteMainSlider className="" />
